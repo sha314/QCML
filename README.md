@@ -2,6 +2,12 @@
 Quantum Computing and Machine Learning
 
 
+# IBM Account
+visit https://quantum.ibm.com to open an account in IBM.
+You'll need the token from IBM homepage to run the examples in IBM.
+For this repository the toten is assuemd to be stored in "~/Documents/keys/ibm-token.txt" file.
+
+
 # Install conda 
 
 # Qiskit 1.0 Configuration
