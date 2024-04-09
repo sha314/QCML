@@ -19,6 +19,11 @@ $ conda install jupyter python=3.8
 
 $ pip install qiskit  qiskit-ibm-runtime qiskit-aer
 
+
+# Pennylane
+conda install conda-forge::pennylane
+
+
 ### In MacOS
 $ pip install 'qiskit[visualization]'
 
@@ -35,6 +40,10 @@ If you want to remove the quantum environment
 $ conda remove --name quantum --all
 
 
+
+
+# Resource 
+https://learning.quantum.ibm.com/tutorial/variational-quantum-eigensolver#step-4-post-process-return-result-in-classical-format
 
 
 
