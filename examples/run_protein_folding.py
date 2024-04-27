@@ -50,9 +50,9 @@
 #   > https://arxiv.org/pdf/2009.07309.pdf
 #       - this article provides ways of constructing hamiltonians for HUBO!
 #   > D-Wave requires QUBO format b/c of quantum hardware limitatations
-#   > VQE & QOAO can I think work with higher order polynomials, so as long as you can properly 
-#     convert your HUBO into a hamiltonian (not trivial...). Another option is using quadratization but 
-#     requires additional qubits bits...
+#   > VQE & QOAO can use higher order polynomials, so as long as you can properly 
+#     convert your HUBO into a hamiltonian (linear transformation xi = 1 - zi, then replace all zi with pauli Z). 
+#   > Dwave requires quadratization so you can use reduce using pyqubo, qubovert, etc.. but introduces additional qubits...
 #   > https://docs.quantum.ibm.com/api/qiskit/qiskit.quantum_info.Pauli
 
 # Peptide Database:
